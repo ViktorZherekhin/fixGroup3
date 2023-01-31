@@ -1,7 +1,8 @@
-package ru.fixgroup.gruz;
-import ru.fixgroup.interfaces.iGruz;
+package main.java.ru.fixgroup.gruz;
 
-public class Gruz implements iGruz {
+
+
+public class Gruz implements ru.fixgroup.interfaces.iGruz {
 
     private int weight;                      // масса в кг
     private int volume;                     // объем в м3

@@ -1,4 +1,4 @@
-package ru.fixgroup.gruz;
+package main.java.ru.fixgroup.gruz;
 
 public class Table extends Gruz {
     public Table(int weight, int volume) {

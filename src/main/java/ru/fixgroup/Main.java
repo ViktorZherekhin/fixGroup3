@@ -1,11 +1,10 @@
-package ru.fixgroup;
+package main.java.ru.fixgroup;
 
-import ru.fixgroup.calculator.CostCalculator;
-import ru.fixgroup.gruz.Gruz;
-import ru.fixgroup.gruz.Table;
-import ru.fixgroup.gruz.Box;
+import main.java.ru.fixgroup.calculator.CostCalculator;
+import main.java.ru.fixgroup.gruz.Table;
+import main.java.ru.fixgroup.gruz.Box;
 
-public class Program {
+public class Main {
 
     public static void main(String[] args) {
 

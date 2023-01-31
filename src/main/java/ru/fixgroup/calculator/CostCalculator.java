@@ -1,5 +1,5 @@
-package ru.fixgroup.calculator;
-import ru.fixgroup.interfaces.iGruz;
+package main.java.ru.fixgroup.calculator;
+
 
 public class CostCalculator {
 
@@ -11,7 +11,7 @@ public class CostCalculator {
         this.km1Cost = km1Cost;
     }
 
-    public double calcCost(iGruz gruz, int km) {
+    public double calcCost(ru.fixgroup.interfaces.iGruz gruz, int km) {
         return gruz.getWeght() * kg1Cost + km * km1Cost;
     }
 

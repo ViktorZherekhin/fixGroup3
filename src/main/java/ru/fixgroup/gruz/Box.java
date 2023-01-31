@@ -1,4 +1,4 @@
-package ru.fixgroup.gruz;
+package main.java.ru.fixgroup.gruz;
 
 public class Box extends Gruz {
     public Box(int weight, int volume) {
